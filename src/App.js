@@ -1,19 +1,16 @@
 import React from 'react';
-import {
-  ChakraProvider,
-  theme,
 
-} from '@chakra-ui/react';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
 
 import { BrowserRouter as Router, Route, Routes  } from "react-router-dom";
+import Header from './components/Header';
+
 
 
 function App() {
   return (
 
       <Router>
-        <div>Good</div>
+        <Header />
         <Routes>
 
           <Route />
