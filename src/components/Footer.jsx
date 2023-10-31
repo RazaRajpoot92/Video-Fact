@@ -2,8 +2,6 @@ import { Box, Button, HStack, Heading, Input, Stack, Text, VStack, } from "@chak
 import React from "react";
 import {AiOutlineSend} from "react-icons/ai"
 
-
-
 const Footer = ()=>{
     return(
        <Box bgColor={"blackAlpha.900"} minH={"40"} p={"16"} color={"white"}>
