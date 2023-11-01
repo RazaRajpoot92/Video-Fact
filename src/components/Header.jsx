@@ -83,7 +83,7 @@ const Header = ()=>{
                 </Button>
 
                 <Button onClick={onClose} variant={"outline"} colorScheme="purple">
-                    <Link to={"/singup"}>Sign Up</Link>
+                    <Link to={"/signup"}>Sign Up</Link>
                 </Button>
 
             </HStack>
